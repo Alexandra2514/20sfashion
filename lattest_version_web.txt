@@ -1,0 +1,453 @@
+
+<!DOCTYPE html>
+<!-- saved from url=(0063)file:///C:/Users/user/Downloads/MYOA_documents/fashion.web.html -->
+<html lang="en"><!-- SELECT LANGAUGE-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+                             <!--RANDOM STUFF TO AVOID ERORS IN THE COMPILER-->
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+<title>20s Fashion </title>
+<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- default zoom for phones-->
+ 
+    <!--defines the CSS layout for screen sizes with 481px max. (CSS Resolution) and below.-->
+<style>
+    /* to make an app adjustable for the phone, one of the things is to have all the sizes with % and not px */
+body{
+  background:black;  /*change background without affecting other elemts is aplying css to the body*/
+
+}
+.header { 
+    /* western fashion in the 20s */
+    color:#cda82a;
+    font-size:107%;
+    font-style:Roboto,"Arial Bold",sans-serif;
+    text-transform: uppercase;
+    line-height: 1000%;
+    position: absolute;
+    text-align: center;
+    top:13%;
+    right:37%;
+    background-color: transparent;
+   
+}
+                                                    .head1 
+                                                    /* inroduction */
+                                                 {
+                                                    color:#cda82a;
+                                                    font-size:187.5%; 
+                                                    position: absolute;
+                                                    text-align:left;
+                                                    font-style:Roboto,"Arial Bold",sans-serif;
+                                                    left:3.5%;
+                                                     top:75%;
+                                                    }
+ span p{
+    /* text intro */
+    color :white;
+    position: absolute;     
+    text-align:left;
+    font-style:"Arial Bold",sans-serif;
+    left:3.5%;
+    right:3.5%;
+    top:80%;
+}
+
+
+                                                    .head2 
+                                                    /* we can wove everithing together by selecting everithing we want and clicking the move arrows */
+                                                    /* carachteristics for woman */
+                                                    {
+                                                    
+                                                        color:#cda82a;
+                                                        font-size:160%;
+                                                        position: absolute;
+                                                        text-align:left;
+                                                        font-style:Roboto,"Arial Bold",sans-serif;
+                                                        left:3.5%;
+                                                        top:153%;
+
+                                                    }
+    .head3
+    /* carachteristics for man */
+    {
+    
+        color:#cda82a;
+        font-size:160%;
+        position: absolute;
+        text-align:left;
+        font-style:Roboto,"Arial Bold",sans-serif;
+        left:55%;
+        top:153%;   
+
+    }
+
+                                                    .foto1 
+                                                    {
+                                                        /* by cliking ctl and x we can erase the entire line, and by cntl z we get back, and by cliking cntl ç we get comment braces
+                                                    */
+                                                    /* to convert from pixels to percent we use the following formula( its used to make th eweb adjustable for other screens)
+                                                    is PP(Pixel to percent) = P(standart px size, usually 16px)*FS(the size in px of what we want to convert)*/
+                                                    position:absolute;        
+                                                    top:98%;
+                                                    left:-0.8%;
+                                                    border:1.67%;
+                                                    margin:0.5%;
+                                                    padding:2.5%;
+                                                    }
+.foto2
+{
+position:absolute;
+top:99%;
+left:24.2%;
+border:1.67%;
+margin:0.5%;
+padding:2%; 
+
+                                                        }
+                                                        .foto3
+                                                        {
+                                                        position:absolute;
+                                                        top:99%;
+                                                        left:48.7%;
+                                                        border:1.67%;
+                                                        margin:0.5%;
+                                                        padding:2%; 
+
+                                                        }
+.foto4
+{
+position:absolute;
+top:99%;
+left:73.2%;
+border:1.67%;
+margin:0.5%;
+padding:2%; 
+
+}
+
+                                                        .foto5
+                                                        {
+                                                        position:absolute;
+                                                        left:27%;
+                                                        top:157%;
+                                                        border:1.67%;
+                                                        margin:0.5%;
+                                                        padding:2%; 
+
+                                                        }
+.foto6
+{
+position:absolute;
+left:75%;
+top:157%;
+border:1.67%;
+margin:0.5%;
+padding:2%; 
+
+}
+                                                    ul{
+                                                        
+                                                        color:white;
+                                                        font-size:120%;
+                                                        position:absolute;
+                                                        text-align:left;
+                                                        font-style:Roboto,"Arial Bold",sans-serif;
+                                                        left:2%;
+                                                        top:159%;
+                                                        list-style-type:square;
+
+                                                    }
+
+
+                                                   
+span ul{  /* para poner dos listas a  la misma altura  en vez de meterla en clases
+     hacer q na sea normal otra span y otra vid de esta manera se diferencian en el CSS */
+    
+    color:white;
+    font-size:120%;
+    position:absolute;
+    text-align:left;
+    font-style:Roboto,"Arial Bold",sans-serif;
+    left:53%;
+    top:159%;
+    list-style-type:square;
+
+}
+                                                        .text2{
+
+                                                            color:white;
+                                                            
+                                                            position:absolute;
+                                                            text-align:left;
+                                                            font-style:Roboto,"Arial Bold",sans-serif;
+                                                            left:3.5%;
+                                                            right:3.5%;
+                                                            top:207%;
+                                                            list-style-type:square;
+                                                            position: absolute;
+
+
+                                                        }
+
+
+ .text22{
+
+color:white;
+
+position:absolute;
+text-align:left;
+font-style:Roboto,"Arial Bold",sans-serif;
+left:3.5%;
+right:3.5%;
+top:280%;
+list-style-type:square;
+position: absolute;  
+ }
+                                                    .text222{
+
+                                                    color:white;
+
+                                                    position:absolute;
+                                                    text-align:left;
+                                                    font-style:Roboto,"Arial Bold",sans-serif;
+                                                    left:28%;
+                                                    top:223%;
+                                                    list-style-type:square;
+                                                    position: absolute;  
+                                                    }
+ .text2222{
+
+color:white;
+
+position:absolute;
+text-align:left;
+font-style:Roboto,"Arial Bold",sans-serif;
+left:64%;
+top:223%;
+list-style-type:square;  
+ }
+                                                            .video
+                                                            {
+                                                                position:absolute;
+                                                                top:480%;
+                                                                left:25%;
+                                                            }
+
+.foto7
+{
+position:absolute;
+left:20%;
+top:226%;
+border:1.67%;
+margin:0.5%;
+padding:2%; 
+
+}
+                                                            .foto8
+                                                            {
+                                                            position:absolute;
+                                                            left:55%;
+                                                            top:226%;
+                                                            border:1.67%;
+                                                            margin:0.5%;
+                                                            padding:2%; 
+
+                                                            }
+
+.foto9
+/* I f your write two dots while specifing the size, 
+it wil move the thing to the oppisite sude */
+{
+position:absolute;
+left:0.1%;
+top:110%;
+border:1.67%;
+margin:0.5%;
+padding:2%; 
+
+}
+                                                            
+                                                            .foto10
+                                                            {
+                                                            position:absolute;
+                                                            left:23%;
+                                                            top:110%;
+                                                            border:1.67%;
+                                                            margin:0.5%;
+                                                            padding:2%; 
+
+                                                            }
+ 
+.foto11
+{
+position:absolute;
+left:48%;
+top:110%;
+border:1.67%;
+margin:0.5%;
+padding:2%; 
+
+}     
+
+
+                                                            .foto12
+                                                            {
+                                                            position:absolute;
+                                                            left:75%;
+                                                            top:110%;
+                                                            border:1.67%;
+                                                            margin:0.5%;
+                                                            padding:2%; 
+                                                            height:25%;
+                                                            width:auto;
+
+                                                            }
+
+
+                                             
+
+  /*  { margin-left:15%;
+    margin-right:15%;
+  }  */
+                                                          
+/* <600px,601px,768,992,1000 */
+/* a color can also be set to a size, so when u change size, the color changes */
+  /* the orientation of the phone is also taken in count: portriat, landscape etc */
+
+</style>
+</head>
+<body>
+    <!--  -->
+      <!--  With cntl and close corchetes or Ç , pressed a the same time, the coment mark will apear -->
+<!-- to centrate a photo we need to devide the width in px by 2 and than if its left: we write the number like it is, if its right:we put"-" infront of it"-->
+<img src="./fashion.web_files/050fa75efb97dbbb856b72482ef7c6b0.jpg" alt="foto" style="position:absolute;width:80%; height:60%; top:3%; left:22%; "> 
+ <div class="header"><h1>Western fashion in the 20s</h1></div>
+ <div class="head1"><strong>Introduction</strong></div> 
+ <span><p>The importance of this time period is actually fascinating besides its shortness, in many ways we can still see its reflection in todays reality.
+Without a doubt the most remarkable aspect of the the 20s is the fashion, and that's what this article is focused on. Is known
+that the way we dress is a reflection of our ideas as partivular indivuduals, and its coincidence with others can describe entire ephocs.
+So to understand fashion,
+is far not enough to just recognize clothing peaces, we need to understand their psicology, the unspoken meaning behind it and what was happening around the world to lead to it.
+
+<a href="https://www.historic-newspapers.co.uk/blog/the-roaring-twenties-in-america/" target="_blank" style="color:#cda82a">History of the 20s</a></p></span>
+
+
+
+ <img class="foto1" src="https://i.pinimg.com/564x/98/8a/30/988a30ff7fdbc7b5b67fe6222eabff6b.jpg "  alt="foto1" style="max-width:20%;max-height:38%; ">
+ <img class="foto2" src=" https://i.pinimg.com/564x/2a/0e/ba/2a0eba2596e27cf42879d87bbd91f3eb.jpg" alt="foto2" style="max-width:20%; max-height:38%;">
+ <img class="foto4" src="https://i.pinimg.com/564x/37/80/42/3780425474c9690a6e30a634c3c97048.jpg" alt="foto2" style="max-width:20%; max-height:38%;">
+ <img class="foto3" src="https://i.pinimg.com/564x/0b/5d/43/0b5d434f4bbba9979b9aa8a8e1453c6a.jpg" alt="foto2" style="max-width:min-20%; max-height:38%;">
+ <div class="head2"><strong>Caracteristics for women</strong></div> 
+ <div class="head3"><strong>Caracteristics for men</strong></div> 
+ 
+<!-- in woman-->
+<ul>
+
+<li>Dress type: straight loose slim skirts/dresses  </li>
+<li>Waist: low rise</li>
+<li>Top: loose and thin blouses</li>
+<li>Accesories: pearls, fur, feathers, buttons, belts</li>
+<li>Hats: Cloche</li>
+<li>Shoes: louise heels, T-strap shoes, flappers</li>
+<li>Materials: cotton, wool, silk, fur, leather</li>
+<li>Haircut: short and slick "Bob"</li>
+<li>Makeup: dramatic, dark ayeshadows and lipstick</li>
+<!-- Mkeup dark red lipstik,
+ "Cupid's bow" lip in a heart shap, 
+ smoky aye -->
+<!-- menwear insipered cothing/ no more corsets, explain th egu who took of corsets -->
+<!-- being tan stated to be desreable bc of an actuve lifestyle, golf tennis... -->
+</ul> 
+
+<img class="foto5" src="https://i.pinimg.com/564x/0b/9c/37/0b9c37239ee691dad661ca88bc3777a7.jpg" alt="woman 20s" style="width:20%; height:40%">
+
+<span><ul>
+
+    <li>Suits: fitted and heavy, "the jazz suit"</li>
+    <li>Waist: heigh</li>
+    <li>Hats: Fedora, flat caps </li>
+    <li>Facial hair: none or a little mustache</li>
+    <li>Prints: patters, stripes, tweed </li>
+    <li>Shirts: soft with collars/ detachable collars</li>
+    <li>Shoes: spectators</li>
+    <li>Neckwear: ties and bows</li>
+    <li>Accesories: collar clips, belts, canes</li>
+    <li>Glasses: round-framed celluloid glasses </li>
+    
+  
+    <!-- life style woman started to have evolved into a subsulture
+    called "Flappers" meaning teen age girl, more revealing cothing, a lot of makeip, drinking,smoking,jazz,dencing,sports
+    with automoiles woman also became more indepedentn" -->
+    </ul></span>
+    
+    <img class="foto6" src="https://i.pinimg.com/736x/7d/14/a9/7d14a9497b6eb1ce02975878f944d957.jpg" alt="woman 20s" style="width:20%; height:40%"> 
+
+ <p class="text2">The crucial accurance that led to such a drastic change from the victorian era to the roaring twenties, was the WW1.
+    Which led to two main changes: SOCIAL  and  ECONOMICAL.<br> The first one was more revolutionary for woman, owing them to take a more signifficant role not just in the household but the society. 
+    From one side due to the lack of millitaries, they had to take part in the front, mainly as nurses. And the other, 
+    the ones who stayed at home , took part in what were considered "men jobs", what ment not just working in fabrics but also carrying mens responsabilities. 
+    What allowoed them to have their own salaries and so independence and latter, a right to vote. This independence was clearly reflected in their style, widly known as "Le Garçon" what in translation from french means:
+    "the boy". Were the iconic short hair reflected freedom. It allowed more movement and less time to take care for it, so woman coud focus in something else than threir appearence. And all this evolution, occured in jut a 20 year gap starting from the end of Victorian era in the 1900s. Just take a look at the pictures bellow to sight the drastic change in the woman character.  <br></p>
+<p class="text222">Victorian woman</p> 
+<p class="text2222">Le Garçon </p>
+    
+    <img class="foto7" src="https://i.pinimg.com/736x/ab/4a/ff/ab4aff0a4245be05c9f7a93dc2b2ddd0.jpg" alt="victorian" style="width:20%; height:50%">
+    <img class="foto8" src="https://wardrobetrendsfashion.com/wp-content/uploads/2015/03/WTFSG_1920s-hairstyles-short-curly-bobs-updos_Clara-Bow.jpg"alt="bob" style="width:20%; height:50%">
+    <!-- foto visotrian style and bob --> <p class="text22"> <br> - It's also important to mention the absence of corsets and any remarking of the femenine figure due to loose clothing. The main reason for it was the lack of materials, to make elaborated designs and the introduction of a standart size in the fabrics, for a faster production. 
+     In fact, this loose effect, was created because of the cobination of standarized sizes with malnourished bodies due to the hunger.<br> -Also, some mens habits were addapted, like smoking and playing sports. And here we can study how this incredible equality raise took its place so fast. Because actually "woman rights manifistations" had nothing to do with it.
+    It was pure economic change. The moment woman happened to be indispenssible in the industries, the majority of their rights came with it. So as it's logic, being equal to men also brought to looking and acting similarly. 
+    <br> <br> In case of men, the main style changes, were basically a simplification of previous designs, due to the same reasons, lack of materials and absence of people who could afford buying elaborated pieces. 
+   Some curiosities to be remarked here, can be for example, the reason why facial hair wasn't trending. This was one of the habits inheritated from the war. 
+   Due to the popularization of the usage of gas as a weapon, wearing anti gas masks was really common, but the long beards that were popular the previous decade, made it uncomftable and unsafe.
+   So shaving became a normal army practice, which stays till today. Another thing to be mentioned, is why we stopped wearing hats if they were so popular back then.
+   And the answer again relies in its practical usage. Before becoming a fashion piece, hats had a solid protecting function. If we go back in time, between 1400-1700 wearing hats was just a measure to the unsanitary. They used to have a very wide brim to protect the head from different rubish that 
+   was throuwn out of the windows in the narrow streets. If we go forward untill the industrial revolution, in lower classes, it was used as a helmet in the construction sites due to the lack of saffety mesurments. And in higher classes, hats were protecting from the low ceiling in the cars. And we can clearly follow how the modernization of cars coincided with the vanish of hats in the fashion.
+   Around the 60s when cars satrted to have a higher ceiling or in the other hand, when cabriolets were becomming popular, so that means, no ceiling at all, there was no need in keep covering from possible injuries. So that's why we don't see hats as much in the second half of the previouss century. And nowadays, hats are solidly used to compliment the outfits.
+   <img class="foto9" src="https://upload.wikimedia.org/wikipedia/commons/3/31/Frans_Hals_-_Portrait_of_a_Man%2C_Gotha.jpg" alt="victorian" style="width: 19%; height:126%">
+   <img class="foto10" src="https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/learn-about-the-fourth-industrial-revolution/meet-the-three-industrial-revolutions/images/d2012d086413b8864a6783f09a71dc0b_cj-8-p-12-sx-5005-r-0-o-8-kilc-7-yned.png" alt="victorian" style="width:22%; height:126%">
+   <img class="foto11" src="https://i.kinja-img.com/image/upload/c_fill,h_900,q_60,w_1600/8f137d9289d348b4bebb67fba82f23f8.jpg" alt="victorian" style="width:23%; height:126%">
+  <img class="foto12" src="https://cdn01.justjared.com/wp-content/uploads/2018/07/watson-wimbledon/emma-watson-and-joe-alwyn-look-sharp-at-wimbledon-20182-12.jpg" alt="victorian" style="width:23%; height:126%" >
+<!-- s  style="width:22%; height:126%" --> </p>
+
+
+
+
+<div>
+    <iframe class="video" style="height: 40%; width:47%;" 
+    src="https://www.youtube.com/embed/22NQuPrwbHA" type="video/mp4">
+    </iframe>
+</div> 
+    
+<!-- IDEAAS TO MENTION latter 
+Culture of appear what ur not, dress cool everyone but coming to poor homes, stoped the visuzl separation of classes.
+Over simplified everthing due to : Industrialization, philosophers that saaid we are just a pice if a big idea.
+the drastic change also happed o be at the same time after world war 1 many impires had fallen, so the reconstruction in the style was parallel with the recontruction on the enrie world -->
+
+
+
+<!-- Ro add a Yt video its works very different from any ither kind of video
+1) the struture to follow is this: <iframe class style src type > </iframe> 
+2)Also a vid wont work at the compiler, it works when its saved and opened in anew tab
+3)if we direcly copy ad paste a link from YT rather is from the web or the app
+it wont work, inicial URL: https://youtu.be/22NQuPrwbHA to make it work
+we add //www.youtube.com/embed/ the last part of the original where the iD is
+//www.youtube.com/embed/22NQuPrwbHA -->
+</body></html>
+
+
+
+
+<!-- LINKS FROM INFO
+MOWAN CLOTHING: https://study.com/academy/lesson/1920s-fashion-history-trends.html#:~:text=The%20fashion%20trends%20of%20the%201920s%20were%20more%20casual%20and,also%20popular%20in%20the%201920s.
+WOMN SHOES:https://vintagedancer.com/1920s/history-of-1920s-fashion-shoes/
+FLAPPERS:https://www.britannica.com/topic/flapper
+ MAKEup:https://www.wardrobeshop.com/blogs/flapper-era/1920s-makeup-trends
+MANS HAT :https://www.gentlemansgazette.com/what-men-wore-1920s/
+Inustrail revolution and roaring 20s https://www.britannica.com/topic/Roaring-Twenties-->
+
+    

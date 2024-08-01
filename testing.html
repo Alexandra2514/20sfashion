@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Images Test</title>
+  </head>
+
+    <style>
+        
+        .foto1 {
+   width: 70%;
+   height:auto;
+}
+
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap:10px;
+}
+/* Medium screens */
+@media all and (min-width: 768px) {
+  .container {
+    grid-template-columns: repeat(2,1fr); /* The max-width of the image relative to its container */
+  }
+}
+
+@media  (min-width: 1200px) {
+  .container {
+    grid-template-columns: repeat(4,1fr); /* The max-width of the image relative to its container */
+  }
+}
+     
+        
+        
+        
+        </style>
+        <body>
+    <!-- <img class="foto1" src="astetik.jpg" alt="notworking"> -->
+  
+
+        <div class="container"> 
+     
+     <!-- when the picture isnt working, if the file path and the syntax is fine its bcecause the size of the page that 
+      opens it up is just ist included, it msy too big and doesnt display it but when just crup it to a smaller one it apears, 
+      for faster debugging in picture, revise these 3 : 
+      1 test the syntax of the programm itself eliminating the picture element
+      2 test the file path( if its linked corectly) by getting it out of the picture to see if it works
+      3 test the picture itself by going inspect and resize it to all posble ways in case the entering sizes just werent included
+      ( like what happened now)   -->
+     
+          <picture> 
+      <!-- <source srcset="years.jpg" media="(min-width: 500px)"> -->
+       <source srcset="./years-large.jpg" media="(min-width: 500px)"> 
+      <source srcset="./years-medium.jpg" media="(min-width: 650px)">
+      <source srcset="./years-small.jpg" media="(min-width: 800px)">
+      <img class="foto1" src="./astetik.jpg" alt="notworking">
+    </picture>
+
+  </div>
+</body>
+  </html>
