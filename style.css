@@ -1,4 +1,5 @@
- body {
+
+   body {
             background: black;
             margin: 0;
             padding: 0;
@@ -27,17 +28,33 @@
         }
 
         .content {
-            margin: 40px 5.5%;
-            color: white;
-            font-family: "Arial Bold", sans-serif;
-            display: flex;
-            flex-wrap: wrap;
-            font-size: 17px;
-            gap: 15px;
-            justify-content: center;
-           /*!!!*/ 
-            text-align: justify;
-        }
+    margin: 5%;
+    color: white;
+    font-family: "Arial Bold", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 17px;
+    gap: 15px;
+    justify-content: center;
+    line-height: 1.6; /* Adjusted line height */
+    hyphens: auto; /* Enable hyphenation */
+    text-align: justify;
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+    .content {
+        margin: 20px;
+        font-size: 15px;
+        gap: 10px;
+        text-align: left; /* Change alignment to left on smaller screens */
+    }
+
+    .content > * {
+        flex: 1 1 100%;
+    }
+}
+
 
         .images {
             display: flex;
@@ -112,9 +129,11 @@
 
         .head2, .head3 {
             margin-top: 20px;
-        }
-        
-        
+        }           
+
+       
+       
+         
             
 
        
